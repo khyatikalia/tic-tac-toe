@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="">
+    <div class="">
+      <div class="msg_box hidden">
+        <span class="">Winner</span>
+      </div>
+      <h1 class="font-serif text-[#f2b137] text- 7xl gap-8">TIC TAC TOE</h1>
+      <div class="parentbox max-w-md w-full">
+        <div class="flex space-y-4"></div>
+        <div class="space-y-4">
+          <div class="flex gap-10 h-32">
+            <button class="flex">
+              <img
+                class="h-7 w-7"
+                src="https://tic-tac-toe-react-pink.vercel.app/static/media/icon-x.0b42b1fa.svg"
+                alt="x mark"
+              />
+              <img
+                class="h-7 w-7"
+                src="https://tic-tac-toe-react-pink.vercel.app/static/media/icon-o.7608cc08.svg"
+                alt="o mark"
+              />
+            </button>
+            <button class="bg-[#1f3641] shadow-2xl shadow-black rounded-lg">
+              <span>Turn</span>
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+            <button
+              id="restart"
+              class="bg-[#1f3641] shadow-2xl shadow-black rounded-lg"
+            >
+              Restart
+            </button>
+          </div>
+          <div class="flex gap-10 h-32">
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full leading-0"
+              id="1"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="1"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="1"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+          </div>
+          <div class="flex gap-10 h-32">
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="4"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="5"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              /></button
+            ><button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="6"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+          </div>
+          <div class="flex gap-10 h-32">
+            <button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full flex justify-center items-center"
+              id="7"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              /></button
+            ><button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="8"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              /></button
+            ><button
+              class="box bg-[#1f3641] shadow-2xl shadow-black rounded-lg group/edit transition ease text-7xl text-[#f2b137] h-full w-full"
+              id="9"
+            >
+              <img
+                class="group/edit invisible group-hover/edit:visible group-hover/edit:scale-150 duration-100 object-fill"
+                src="./img/Mediamodifier-Design-Template.png"
+              />
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-[#f2b137] shadow-2xl shadow-black rounded-lg place-self-start"
+        ></div>
+        <div class="bg-[#a8bfc9] shadow-2xl shadow-black rounded-lg"></div>
+
+        <div class="bg-[#31c3bd] shadow-2xl shadow-black rounded-lg"></div>
+        <div class="msg_box hidden">
+          <span
+            class="msg text-nowrap text-2xl text-[#f2b137] items-center justify-center"
+            >Winner</span
+          >
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
